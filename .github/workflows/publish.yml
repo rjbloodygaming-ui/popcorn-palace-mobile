@@ -1,0 +1,21 @@
+name: Publish signed Android update
+on:
+  push:
+    branches: [main]
+    paths: [release-input.json, '*.apk', 'publish_release.py', '.github/workflows/publish.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: android-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and publish update
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: python3 publish_release.py
