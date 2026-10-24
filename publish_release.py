@@ -32,7 +32,7 @@ def prepare():
         tools = max(candidates, key=lambda p: [int(n) for n in re.findall(r"\d+", p.name)])
     tools = Path(tools)
     cert = subprocess.check_output([str(tools / "apksigner"), "verify", "--print-certs", str(apk)], text=True)
-    signers = {digest.lower().replace(":", "") for digest in re.findall(r"Signer #\d+(?: \([^\n]*?\))? certificate SHA-256 digest:\s*([a-fA-F0-9:]+)", cert)}
+    signers = {digest.lower().replace(":", "") for digest in re.findall(r"(?:Signer #\d+|V[0-9.]+ Signer:) certificate SHA-256 digest:\s*([a-fA-F0-9:]+)", cert)}
     if signers != {SIGNER}:
         print(cert)
         raise ValueError("APK does not use the original app signing certificate")
