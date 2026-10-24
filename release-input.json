@@ -1,0 +1,9 @@
+{
+  "versionCode": 15,
+  "versionName": "0.6.5-beta",
+  "packageName": "app.nepu.player",
+  "apk": "Popcorn-Palace-Mobile-0.6.5-beta.apk",
+  "sha256": "7e4b001768be18c1f20a11a5d9e97f0447bcbf169d6427f5caf25164e774d6b6",
+  "size": 263444,
+  "notes": "Adds GitHub update checks whenever the app opens or returns to the foreground, Settings update controls, background APK downloads, and verified in-place installation. Includes the continuous video output changes from 0.6.4. Install this version once manually to enable future in-app updates."
+}
