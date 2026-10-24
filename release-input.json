@@ -1,9 +1,9 @@
 {
-  "versionCode": 16,
-  "versionName": "0.6.6-beta",
+  "versionCode": 17,
+  "versionName": "0.6.7-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.6-beta.apk",
-  "sha256": "5c33805ce58a6fce44ac9887e07dfb923bf226fbc70f2d5f38ed66f080ed7653",
-  "size": 263444,
-  "notes": "Auto-update test release. Only the version has changed from 0.6.5-beta to 0.6.6-beta; no feature or behavior changes."
+  "apk": "Popcorn-Palace-Mobile-0.6.7-beta.apk",
+  "sha256": "f13fec5e17dbc5ee72e6d187b767dc53810cc305b322e34792ac204e6f509efd",
+  "size": 308835,
+  "notes": "Uses the supplied popcorn artwork as the app icon. Density-independent scaling, adaptive circle and rounded-square launcher support, safe padding to avoid cropping, and Android themed-icon support. Existing app functionality is unchanged."
 }
