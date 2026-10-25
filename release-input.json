@@ -1,9 +1,9 @@
 {
-  "versionCode": 18,
-  "versionName": "0.6.8-beta",
+  "versionCode": 19,
+  "versionName": "0.6.9-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.8-beta.apk",
-  "sha256": "4786838bbc2d919a8161a980da85678d6c1c5387f9c1ebf03faa35c723a3f0e1",
+  "apk": "Popcorn-Palace-Mobile-0.6.9-beta.apk",
+  "sha256": "0f6c4aee052229bebf2f8125f09c904b90158271aeafa0086e91da4e757e0697",
   "size": 308835,
-  "notes": "Pauses playback when returning from Player to the episode list, Discover, Favorites or history. Saved position is retained. Leaving during loading also cancels playback intent. Minimizing the app or locking the phone while on Player still allows background playback."
+  "notes": "Removes the duplicate AnimeDubSerie category that returned an empty listing. Uses AnimeDubSeries (category 37) and maps the obsolete category 34 to it. Anime choices now have readable Dubbed/Subbed movies/series labels. Playback behavior is unchanged."
 }
