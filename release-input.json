@@ -1,9 +1,9 @@
 {
-  "versionCode": 25,
-  "versionName": "0.6.15-beta",
+  "versionCode": 26,
+  "versionName": "0.6.16-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.15-beta.apk",
-  "sha256": "e538dc61a057e117286d6e718eb6a30620f35a9dda00a8c0ed1fc9104f70f3df",
+  "apk": "Popcorn-Palace-Mobile-0.6.16-beta.apk",
+  "sha256": "ff13a2cdf075df850a60fc79a61c6fb9872cab1580bdeb1ada933e3b8b6af999",
   "size": 321190,
-  "notes": "Fixed:\n\n• Anime films no longer appear in general Movies searches, and anime series no longer appear in general TV Shows searches. Anime remains searchable in its own categories and in Discover.\n• Selecting an anime or Movies/TV category link clears an incompatible previous media-type filter.\n\nChanged:\n\n• Non-anime animated movies remain in Movies; anime search still respects the selected dubbed/subbed and movie/series category."
+  "notes": "Fixed:\n\n• Unmarked alternate listings of a known anime title are now classified as Anime before search filtering, including listings without a DUB/SUB prefix.\n• Recognized anime classification is retained across app restarts so an unmarked version stays out of general Movies/TV searches when it appears alone later.\n\nChanged:\n\n• Alternate-title matching requires the normalized full title and movie/series format, supported by a matching release year or cover image. Conflicting years are rejected, and no language/edition is guessed."
 }

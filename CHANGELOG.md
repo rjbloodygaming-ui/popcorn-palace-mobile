@@ -2,6 +2,17 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.16-beta — 2026-10-25
+
+### Fixed
+
+- Unmarked alternate listings of a known anime title are now classified as Anime before search filtering, including listings without a DUB/SUB prefix.
+- Recognized anime classification is retained across app restarts so an unmarked version stays out of general Movies/TV searches when it appears alone later.
+
+### Changed
+
+- Alternate-title matching requires the normalized full title and movie/series format, supported by a matching release year or cover image. Conflicting years are rejected, and no language/edition is guessed.
+
 ## 0.6.15-beta — 2026-10-25
 
 ### Fixed

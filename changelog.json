@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "versionCode": 26,
+      "versionName": "0.6.16-beta",
+      "date": "2026-10-25",
+      "Fixed": [
+        "Unmarked alternate listings of a known anime title are now classified as Anime before search filtering, including listings without a DUB/SUB prefix.",
+        "Recognized anime classification is retained across app restarts so an unmarked version stays out of general Movies/TV searches when it appears alone later."
+      ],
+      "Changed": [
+        "Alternate-title matching requires the normalized full title and movie/series format, supported by a matching release year or cover image. Conflicting years are rejected, and no language/edition is guessed."
+      ]
+    },
+    {
       "versionCode": 25,
       "versionName": "0.6.15-beta",
       "date": "2026-10-25",
