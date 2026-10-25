@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "versionCode": 21,
+      "versionName": "0.6.11-beta",
+      "date": "2026-10-25",
+      "Fixed": [
+        "Finished Episodes, Watch History and Continue Watching now group saved episodes by show instead of displaying a flat episode list."
+      ],
+      "Changed": [
+        "Show cards use the same responsive poster grid as search results. Tap a card to view that show’s saved episodes, resume positions and watched controls.",
+        "Show titles and covers are saved with new history entries. Older history uses saved show information or a recognizable title URL when available."
+      ]
+    },
+    {
       "versionCode": 20,
       "versionName": "0.6.10-beta",
       "date": "2026-10-25",

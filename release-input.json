@@ -1,9 +1,9 @@
 {
-  "versionCode": 20,
-  "versionName": "0.6.10-beta",
+  "versionCode": 21,
+  "versionName": "0.6.11-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.10-beta.apk",
-  "sha256": "bff266f416b43183e67caa6398b1013e2d0a1ce50ee4891b81429411858c0b14",
-  "size": 308902,
-  "notes": "Added:\n\n• Added an offline Changelog in Settings and the navigation menu, with version numbers, dates and grouped changes.\n• Included release history back to 0.6.4 so users can review earlier fixes.\n\nChanged:\n\n• GitHub release notes now list Added, Fixed and Changed items and link to the full changelog.\n• The publisher checks that release notes, the GitHub changelog and the app's bundled history match before publishing."
+  "apk": "Popcorn-Palace-Mobile-0.6.11-beta.apk",
+  "sha256": "70db14140cca970d23556132a6c964a83f11381479c3838703275592559a0fd8",
+  "size": 312998,
+  "notes": "Fixed:\n\n• Finished Episodes, Watch History and Continue Watching now group saved episodes by show instead of displaying a flat episode list.\n\nChanged:\n\n• Show cards use the same responsive poster grid as search results. Tap a card to view that show’s saved episodes, resume positions and watched controls.\n• Show titles and covers are saved with new history entries. Older history uses saved show information or a recognizable title URL when available."
 }

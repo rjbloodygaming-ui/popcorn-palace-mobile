@@ -2,6 +2,17 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.11-beta — 2026-10-25
+
+### Fixed
+
+- Finished Episodes, Watch History and Continue Watching now group saved episodes by show instead of displaying a flat episode list.
+
+### Changed
+
+- Show cards use the same responsive poster grid as search results. Tap a card to view that show’s saved episodes, resume positions and watched controls.
+- Show titles and covers are saved with new history entries. Older history uses saved show information or a recognizable title URL when available.
+
 ## 0.6.10-beta — 2026-10-25
 
 ### Added

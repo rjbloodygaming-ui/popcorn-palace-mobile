@@ -32,7 +32,8 @@ Returning from Player to the episode list, Discover or another screen inside the
 ### Organize your library
 
 - Save favorites and organize them into multiple custom categories.
-- Find unfinished episodes in Continue watching and review your watch history.
+- Browse Finished Episodes, Watch History and Continue Watching by show, using the same poster grid as search.
+- Tap a show to see its saved episodes, resume positions and watched controls.
 - Resume saved episodes and audiobooks from their last recorded position.
 - Track approximate playback time and automatically mark episodes watched near completion.
 - Manually mark episodes watched or unwatched and edit saved episode titles.
