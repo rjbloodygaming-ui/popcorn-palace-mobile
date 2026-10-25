@@ -1,6 +1,22 @@
 {
   "releases": [
     {
+      "versionCode": 27,
+      "versionName": "0.6.17-beta",
+      "date": "2026-10-25",
+      "Fixed": [
+        "Scoped searches now check title-page category, genre and production-country metadata, including structured data, to identify untagged anime without requiring a matching dubbed/subbed listing.",
+        "Titles with unverified categories are withheld from restricted searches instead of being assumed to be normal Movies/TV results. Discover continues to include them."
+      ],
+      "Added": [
+        "Added Category info on title pages, with a copyable diagnostic summary of the extracted genres, countries and category.",
+        "Added an all-category search action when titles could not be classified."
+      ],
+      "Changed": [
+        "Category lookups are cached and run in parallel with a 25-second overall wait limit. Animation with Japanese origin is classified as Anime; other animation is not automatically treated as anime."
+      ]
+    },
+    {
       "versionCode": 26,
       "versionName": "0.6.16-beta",
       "date": "2026-10-25",

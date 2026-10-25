@@ -2,6 +2,22 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.17-beta — 2026-10-25
+
+### Added
+
+- Added Category info on title pages, with a copyable diagnostic summary of the extracted genres, countries and category.
+- Added an all-category search action when titles could not be classified.
+
+### Fixed
+
+- Scoped searches now check title-page category, genre and production-country metadata, including structured data, to identify untagged anime without requiring a matching dubbed/subbed listing.
+- Titles with unverified categories are withheld from restricted searches instead of being assumed to be normal Movies/TV results. Discover continues to include them.
+
+### Changed
+
+- Category lookups are cached and run in parallel with a 25-second overall wait limit. Animation with Japanese origin is classified as Anime; other animation is not automatically treated as anime.
+
 ## 0.6.16-beta — 2026-10-25
 
 ### Fixed

@@ -15,7 +15,8 @@ Read the [full changelog](CHANGELOG.md) for fixes and features in each release. 
 - Search for titles and explore a poster-based catalogue. Searches stay in the selected sidebar section; Movies and TV Shows exclude anime, which has its own categories. Discover searches all categories.
 - Browse movies, TV shows, anime and audiobooks through categories and filters.
 - Choose dubbed or subbed anime, with separate movie and series categories.
-- Recognize unmarked alternate anime listings when matching title and release/cover evidence is available.
+- Check title-page genres and production countries to recognize untagged anime, with saved matching-title evidence as a fallback.
+- Keep unverified titles available in Discover, with Category info on title pages for checking the source metadata.
 - Browse episode lists by season, with your selected season remembered.
 - Sort results by newest, popular, release date or IMDb where supported by the source.
 
