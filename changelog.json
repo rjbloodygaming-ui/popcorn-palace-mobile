@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "versionCode": 24,
+      "versionName": "0.6.14-beta",
+      "date": "2026-10-25",
+      "Added": [
+        "Search now stays within the active sidebar catalogue, including Movies, TV Shows, anime selections and Audiobooks. Searching from Discover includes all categories.",
+        "Search headings and input hints show the active scope. Clearing a search returns to the same catalogue."
+      ],
+      "Fixed": [
+        "Audiobook searches now submit the entered query instead of reloading the audiobook browse page.",
+        "Search results are filtered using returned or previously saved content metadata before any catalogue-context labels are applied."
+      ]
+    },
+    {
       "versionCode": 23,
       "versionName": "0.6.13-beta",
       "date": "2026-10-25",

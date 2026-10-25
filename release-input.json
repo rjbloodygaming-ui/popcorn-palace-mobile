@@ -1,9 +1,9 @@
 {
-  "versionCode": 23,
-  "versionName": "0.6.13-beta",
+  "versionCode": 24,
+  "versionName": "0.6.14-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.13-beta.apk",
-  "sha256": "3cfd8d42c10059a613a144fa90673e116c84494e008ccb4f61dfb2318875bfb8",
-  "size": 317094,
-  "notes": "Added:\n\n• Added current-show or audiobook artwork to the playback notification and media session, enabling artwork backgrounds on supported Android/One UI media controls.\n• Uses the title banner when available, with the show or book cover as fallback.\n\nChanged:\n\n• Artwork loads in the background without delaying playback and stays with the playback service while the app is minimized or the phone is locked.\n• Switching titles clears old artwork; late image responses are ignored after a source change or Stop. Existing playback controls are retained."
+  "apk": "Popcorn-Palace-Mobile-0.6.14-beta.apk",
+  "sha256": "c7127f3a8dd36ed3c088314083364fc868c5abb1e74085e179d1c5acf8d585f8",
+  "size": 321190,
+  "notes": "Added:\n\n• Search now stays within the active sidebar catalogue, including Movies, TV Shows, anime selections and Audiobooks. Searching from Discover includes all categories.\n• Search headings and input hints show the active scope. Clearing a search returns to the same catalogue.\n\nFixed:\n\n• Audiobook searches now submit the entered query instead of reloading the audiobook browse page.\n• Search results are filtered using returned or previously saved content metadata before any catalogue-context labels are applied."
 }
