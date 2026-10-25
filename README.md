@@ -34,6 +34,7 @@ Returning from Player to the episode list, Discover or another screen inside the
 - Save favorites and organize them into multiple custom categories.
 - Browse Finished Episodes, Watch History and Continue Watching by show, using the same poster grid as search.
 - Tap a show to see its saved episodes, resume positions and watched controls.
+- Remove a show from Continue Watching without deleting history or progress; undo the last removal or start an episode again to restore it.
 - Resume saved episodes and audiobooks from their last recorded position.
 - Track approximate playback time and automatically mark episodes watched near completion.
 - Manually mark episodes watched or unwatched and edit saved episode titles.

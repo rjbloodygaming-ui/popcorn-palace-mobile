@@ -1,6 +1,22 @@
 {
   "releases": [
     {
+      "versionCode": 22,
+      "versionName": "0.6.12-beta",
+      "date": "2026-10-25",
+      "Added": [
+        "Added Remove on Continue Watching show cards and inside each saved show. Removal hides the show from that list while keeping watch history, watched status and resume positions.",
+        "Added Undo removal for the last removed show. Starting an episode from a hidden show again also restores it to Continue Watching."
+      ],
+      "Changed": [
+        "Continue Watching removals persist on this device when the app is reopened."
+      ],
+      "Fixed": [
+        "Missing or failed show covers in Watch History, Finished Episodes and Continue Watching now trigger a background lookup on the title page. Recovered cover links are saved for future visits.",
+        "Expanded title-page cover parsing to handle alternate image metadata and lazy poster elements."
+      ]
+    },
+    {
       "versionCode": 21,
       "versionName": "0.6.11-beta",
       "date": "2026-10-25",

@@ -1,9 +1,9 @@
 {
-  "versionCode": 21,
-  "versionName": "0.6.11-beta",
+  "versionCode": 22,
+  "versionName": "0.6.12-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.11-beta.apk",
-  "sha256": "70db14140cca970d23556132a6c964a83f11381479c3838703275592559a0fd8",
+  "apk": "Popcorn-Palace-Mobile-0.6.12-beta.apk",
+  "sha256": "6a3d89252804fcb292b1122c76aa0ff0dfee770bcd08b27aaee978071af7e560",
   "size": 312998,
-  "notes": "Fixed:\n\n• Finished Episodes, Watch History and Continue Watching now group saved episodes by show instead of displaying a flat episode list.\n\nChanged:\n\n• Show cards use the same responsive poster grid as search results. Tap a card to view that show’s saved episodes, resume positions and watched controls.\n• Show titles and covers are saved with new history entries. Older history uses saved show information or a recognizable title URL when available."
+  "notes": "Added:\n\n• Added Remove on Continue Watching show cards and inside each saved show. Removal hides the show from that list while keeping watch history, watched status and resume positions.\n• Added Undo removal for the last removed show. Starting an episode from a hidden show again also restores it to Continue Watching.\n\nFixed:\n\n• Missing or failed show covers in Watch History, Finished Episodes and Continue Watching now trigger a background lookup on the title page. Recovered cover links are saved for future visits.\n• Expanded title-page cover parsing to handle alternate image metadata and lazy poster elements.\n\nChanged:\n\n• Continue Watching removals persist on this device when the app is reopened."
 }

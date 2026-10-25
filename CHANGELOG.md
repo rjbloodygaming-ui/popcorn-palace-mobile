@@ -2,6 +2,22 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.12-beta — 2026-10-25
+
+### Added
+
+- Added Remove on Continue Watching show cards and inside each saved show. Removal hides the show from that list while keeping watch history, watched status and resume positions.
+- Added Undo removal for the last removed show. Starting an episode from a hidden show again also restores it to Continue Watching.
+
+### Fixed
+
+- Missing or failed show covers in Watch History, Finished Episodes and Continue Watching now trigger a background lookup on the title page. Recovered cover links are saved for future visits.
+- Expanded title-page cover parsing to handle alternate image metadata and lazy poster elements.
+
+### Changed
+
+- Continue Watching removals persist on this device when the app is reopened.
+
 ## 0.6.11-beta — 2026-10-25
 
 ### Fixed
