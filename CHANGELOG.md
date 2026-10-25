@@ -2,6 +2,18 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.13-beta — 2026-10-25
+
+### Added
+
+- Added current-show or audiobook artwork to the playback notification and media session, enabling artwork backgrounds on supported Android/One UI media controls.
+- Uses the title banner when available, with the show or book cover as fallback.
+
+### Changed
+
+- Artwork loads in the background without delaying playback and stays with the playback service while the app is minimized or the phone is locked.
+- Switching titles clears old artwork; late image responses are ignored after a source change or Stop. Existing playback controls are retained.
+
 ## 0.6.12-beta — 2026-10-25
 
 ### Added

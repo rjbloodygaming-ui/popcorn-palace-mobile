@@ -26,6 +26,7 @@ Read the [full changelog](CHANGELOG.md) for fixes and features in each release. 
 - Keep audio playing while the app is minimized or your phone is locked.
 - Control playback from notifications and the lock screen, including play, pause, seeking and Stop. Available controls and their layout depend on Android and your device.
 - Use supported headset and Bluetooth media controls.
+- See the current title’s banner or cover in media controls, with artwork backgrounds where supported by Android/One UI.
 
 Returning from Player to the episode list, Discover or another screen inside the app pauses playback and keeps your position. Minimizing the app or locking your phone while on Player allows playback to continue in the background. Returning to a paused session leaves it paused until you press Play.
 
