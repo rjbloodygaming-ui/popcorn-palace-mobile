@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "versionCode": 25,
+      "versionName": "0.6.15-beta",
+      "date": "2026-10-25",
+      "Fixed": [
+        "Anime films no longer appear in general Movies searches, and anime series no longer appear in general TV Shows searches. Anime remains searchable in its own categories and in Discover.",
+        "Selecting an anime or Movies/TV category link clears an incompatible previous media-type filter."
+      ],
+      "Changed": [
+        "Non-anime animated movies remain in Movies; anime search still respects the selected dubbed/subbed and movie/series category."
+      ]
+    },
+    {
       "versionCode": 24,
       "versionName": "0.6.14-beta",
       "date": "2026-10-25",

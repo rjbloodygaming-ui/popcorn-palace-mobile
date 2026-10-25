@@ -12,7 +12,7 @@ Read the [full changelog](CHANGELOG.md) for fixes and features in each release. 
 
 ### Browse and discover
 
-- Search for titles and explore a poster-based catalogue. Searches stay in the selected sidebar section; Discover searches all categories.
+- Search for titles and explore a poster-based catalogue. Searches stay in the selected sidebar section; Movies and TV Shows exclude anime, which has its own categories. Discover searches all categories.
 - Browse movies, TV shows, anime and audiobooks through categories and filters.
 - Choose dubbed or subbed anime, with separate movie and series categories.
 - Browse episode lists by season, with your selected season remembered.

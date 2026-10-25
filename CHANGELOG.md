@@ -2,6 +2,17 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.15-beta — 2026-10-25
+
+### Fixed
+
+- Anime films no longer appear in general Movies searches, and anime series no longer appear in general TV Shows searches. Anime remains searchable in its own categories and in Discover.
+- Selecting an anime or Movies/TV category link clears an incompatible previous media-type filter.
+
+### Changed
+
+- Non-anime animated movies remain in Movies; anime search still respects the selected dubbed/subbed and movie/series category.
+
 ## 0.6.14-beta — 2026-10-25
 
 ### Added
