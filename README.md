@@ -4,6 +4,10 @@ Popcorn Palace Mobile is an independent Android app for browsing NEPU's catalogu
 
 **[Download the latest Android APK](https://github.com/rjbloodygaming-ui/popcorn-palace-mobile/releases/latest)**
 
+## Changelog
+
+Read the [full changelog](CHANGELOG.md) for fixes and features in each release. Inside the app, open **Settings → Changelog** or **Menu → Changelog**; installed release history is available offline. New GitHub releases also include a list of what was added, fixed or changed.
+
 ## Features
 
 ### Browse and discover

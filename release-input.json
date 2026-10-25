@@ -1,9 +1,9 @@
 {
-  "versionCode": 19,
-  "versionName": "0.6.9-beta",
+  "versionCode": 20,
+  "versionName": "0.6.10-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.9-beta.apk",
-  "sha256": "0f6c4aee052229bebf2f8125f09c904b90158271aeafa0086e91da4e757e0697",
-  "size": 308835,
-  "notes": "Removes the duplicate AnimeDubSerie category that returned an empty listing. Uses AnimeDubSeries (category 37) and maps the obsolete category 34 to it. Anime choices now have readable Dubbed/Subbed movies/series labels. Playback behavior is unchanged."
+  "apk": "Popcorn-Palace-Mobile-0.6.10-beta.apk",
+  "sha256": "bff266f416b43183e67caa6398b1013e2d0a1ce50ee4891b81429411858c0b14",
+  "size": 308902,
+  "notes": "Added:\n\n• Added an offline Changelog in Settings and the navigation menu, with version numbers, dates and grouped changes.\n• Included release history back to 0.6.4 so users can review earlier fixes.\n\nChanged:\n\n• GitHub release notes now list Added, Fixed and Changed items and link to the full changelog.\n• The publisher checks that release notes, the GitHub changelog and the app's bundled history match before publishing."
 }

@@ -1,0 +1,65 @@
+# Changelog
+
+Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
+
+## 0.6.10-beta — 2026-10-25
+
+### Added
+
+- Added an offline Changelog in Settings and the navigation menu, with version numbers, dates and grouped changes.
+- Included release history back to 0.6.4 so users can review earlier fixes.
+
+### Changed
+
+- GitHub release notes now list Added, Fixed and Changed items and link to the full changelog.
+- The publisher checks that release notes, the GitHub changelog and the app's bundled history match before publishing.
+
+## 0.6.9-beta — 2026-10-25
+
+### Fixed
+
+- Removed the duplicate AnimeDubSerie option that returned an empty listing.
+- Redirected the old dubbed-series category to AnimeDubSeries.
+
+### Changed
+
+- Renamed anime categories to clear Dubbed/Subbed movies/series labels.
+
+## 0.6.8-beta — 2026-10-24
+
+### Fixed
+
+- Playback now pauses when leaving Player for the episode list, Discover, Favorites or history.
+- Leaving the Player screen while a source is preparing also prevents it from starting later.
+
+### Changed
+
+- Saved playback positions are retained; minimizing or locking the phone from Player still allows background playback.
+
+## 0.6.7-beta — 2026-10-24
+
+### Changed
+
+- Replaced the app icon with the supplied popcorn artwork.
+- Added proportional icon scaling, adaptive launcher shapes, safe padding and themed-icon support.
+
+## 0.6.6-beta — 2026-10-24
+
+### Changed
+
+- Version-only update from 0.6.5 to test in-app updating. No feature or behavior changes.
+
+## 0.6.5-beta — 2026-10-24
+
+### Added
+
+- Added GitHub update checks whenever the app opens or returns to the foreground.
+- Added Settings controls for manual checks, automatic checks, Update, Later and Skip this version.
+- Added background APK downloads and verification of checksum, package, version and signing certificate before installation.
+
+## 0.6.4-beta — 2026-10-24
+
+### Changed
+
+- Kept the video decoder output alive in the playback service while the app is minimized or locked.
+- Returning to Player reconnects the visible video window without recreating the decoder output, targeting interruptions on app return.
