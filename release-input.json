@@ -1,9 +1,9 @@
 {
-  "versionCode": 29,
-  "versionName": "0.6.19-beta",
+  "versionCode": 30,
+  "versionName": "0.6.20-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.19-beta.apk",
-  "sha256": "a4a8a5bbdf32e3fed15f5e43bdbf4ca7b8ae87b108c316cda9c073bf974eb53e",
-  "size": 329382,
-  "notes": "Changed:\n\n• Watch History now contains only episodes marked watched. Unwatched episodes appear in Continue Watching; Finished Episodes remains watched-only.\n• Marking an episode watched or unwatched moves it between the appropriate views while preserving its resume position, saved history, seasons and numeric episode order."
+  "apk": "Popcorn-Palace-Mobile-0.6.20-beta.apk",
+  "sha256": "f8bebc8e82711999c4cf91c3ca60ddcb9bda5ac0f5b48bfc0976459a9699a300",
+  "size": 337574,
+  "notes": "Added:\n\n• Added app-wide local diagnostic logging for navigation, network requests, playback, update checks and errors, with view, enable/disable, clear and export controls under Settings → App diagnostics / export logs.\n• Diagnostic logs are size-limited and stay on the device until explicitly exported. Logs exclude titles, search text, full URLs, passwords, cookies, authorization headers, response bodies and exception messages.\n\nChanged:\n\n• Removed the private Crunchyroll import experiment and its test-library tabs. Upgrades from experimental builds clean up retired importer browser data, temporary captures and test-library preferences while preserving the main library."
 }

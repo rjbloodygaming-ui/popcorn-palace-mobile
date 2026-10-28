@@ -2,6 +2,17 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.20-beta — 2026-10-28
+
+### Added
+
+- Added app-wide local diagnostic logging for navigation, network requests, playback, update checks and errors, with view, enable/disable, clear and export controls under Settings → App diagnostics / export logs.
+- Diagnostic logs are size-limited and stay on the device until explicitly exported. Logs exclude titles, search text, full URLs, passwords, cookies, authorization headers, response bodies and exception messages.
+
+### Changed
+
+- Removed the private Crunchyroll import experiment and its test-library tabs. Upgrades from experimental builds clean up retired importer browser data, temporary captures and test-library preferences while preserving the main library.
+
 ## 0.6.19-beta — 2026-10-28
 
 ### Changed

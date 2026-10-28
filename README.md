@@ -45,6 +45,13 @@ Returning from Player to the episode list, Discover or another screen inside the
 
 Favorites, history, settings and saved positions are stored on your device. Updates installed over the existing app preserve this data.
 
+### Diagnostics
+
+- View, clear, enable/disable or export app-wide logs through **Settings → App diagnostics / export logs**.
+- Logs cover navigation, network status/timings, playback controls and errors, update checks and app lifecycle events.
+- Logging is enabled by default unless you previously disabled it. Logs stay on your device, rotate to limit storage to about 512 KB, and are never uploaded automatically.
+- Titles, searches, full URLs, credentials, cookies, authorization headers, response bodies and exception messages are excluded. Exporting is your choice.
+
 ### Built-in updates
 
 - Check for new app versions whenever the app opens or returns to the foreground.
