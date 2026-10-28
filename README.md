@@ -24,7 +24,7 @@ Read the [full changelog](CHANGELOG.md) for fixes and features in each release. 
 
 - Stream supported video and audio sources with native Android playback, including HLS.
 - Use full-screen video, seek through playback, and skip backward or forward by 10 seconds.
-- Move to the next episode from the player when another episode is available.
+- Move to the next episode from the player when another episode is available; Next episode marks the episode you leave as watched.
 - Keep audio playing while the app is minimized or your phone is locked.
 - Control playback from notifications and the lock screen, including play, pause, seeking and Stop. Available controls and their layout depend on Android and your device.
 - Use supported headset and Bluetooth media controls.
@@ -36,7 +36,7 @@ Returning from Player to the episode list, Discover or another screen inside the
 
 - Save favorites and organize them into multiple custom categories.
 - Browse Finished Episodes, Watch History and Continue Watching by show, using the same poster grid as search.
-- Tap a show to see its saved episodes, resume positions and watched controls.
+- Tap a show to see its saved episodes grouped by season and ordered by episode number, with resume positions and watched controls.
 - Remove a show from Continue Watching without deleting history or progress; undo the last removal or start an episode again to restore it.
 - Resume saved episodes and audiobooks from their last recorded position.
 - Track approximate playback time and automatically mark episodes watched near completion.

@@ -2,6 +2,17 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.18-beta — 2026-10-28
+
+### Added
+
+- Saved episode metadata retains season, episode number and source order so editing an episode title does not change its place in history. Older records use the season/episode information already present in their titles and URLs.
+
+### Changed
+
+- Tapping Next episode now marks the episode being left as watched before opening the next episode. Resume positions and actual watch time are preserved.
+- Saved episodes inside Watch History are grouped into seasons and sorted numerically, such as 1, 2, 3 and 10, instead of by last-viewed time. The same saved-season layout is used in Finished Episodes and Continue Watching.
+
 ## 0.6.17-beta — 2026-10-25
 
 ### Added
