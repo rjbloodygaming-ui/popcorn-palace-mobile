@@ -1,9 +1,9 @@
 {
-  "versionCode": 30,
-  "versionName": "0.6.20-beta",
+  "versionCode": 31,
+  "versionName": "0.6.21-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.20-beta.apk",
-  "sha256": "f8bebc8e82711999c4cf91c3ca60ddcb9bda5ac0f5b48bfc0976459a9699a300",
+  "apk": "Popcorn-Palace-Mobile-0.6.21-beta.apk",
+  "sha256": "fb41778682c526c2c51bdeee7ebdb160dca05ebf1c02acc76db2b785a997dc6c",
   "size": 337574,
-  "notes": "Added:\n\n• Added app-wide local diagnostic logging for navigation, network requests, playback, update checks and errors, with view, enable/disable, clear and export controls under Settings → App diagnostics / export logs.\n• Diagnostic logs are size-limited and stay on the device until explicitly exported. Logs exclude titles, search text, full URLs, passwords, cookies, authorization headers, response bodies and exception messages.\n\nChanged:\n\n• Removed the private Crunchyroll import experiment and its test-library tabs. Upgrades from experimental builds clean up retired importer browser data, temporary captures and test-library preferences while preserving the main library."
+  "notes": "Fixed:\n\n• Titles with populated non-animation genre metadata, such as Doctor Who (1996), no longer require a country field to be classified as Movies or TV Shows.\n• Previously cached unverified results are re-evaluated using their saved genre metadata, so affected titles recover in global and category searches without clearing app data.\n\nChanged:\n\n• Animated titles without origin evidence remain unverified unless explicit anime metadata is available. Missing genre metadata is not treated as proof of a regular movie."
 }

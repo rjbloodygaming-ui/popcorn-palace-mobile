@@ -2,6 +2,17 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.21-beta — 2026-10-28
+
+### Fixed
+
+- Titles with populated non-animation genre metadata, such as Doctor Who (1996), no longer require a country field to be classified as Movies or TV Shows.
+- Previously cached unverified results are re-evaluated using their saved genre metadata, so affected titles recover in global and category searches without clearing app data.
+
+### Changed
+
+- Animated titles without origin evidence remain unverified unless explicit anime metadata is available. Missing genre metadata is not treated as proof of a regular movie.
+
 ## 0.6.20-beta — 2026-10-28
 
 ### Added
