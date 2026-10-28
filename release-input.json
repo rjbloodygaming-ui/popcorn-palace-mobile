@@ -1,9 +1,9 @@
 {
-  "versionCode": 28,
-  "versionName": "0.6.18-beta",
+  "versionCode": 29,
+  "versionName": "0.6.19-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.18-beta.apk",
-  "sha256": "d64d52723457444f25496a8c62692d342da7b09f333f9b8354efc3aa6021f62b",
+  "apk": "Popcorn-Palace-Mobile-0.6.19-beta.apk",
+  "sha256": "a4a8a5bbdf32e3fed15f5e43bdbf4ca7b8ae87b108c316cda9c073bf974eb53e",
   "size": 329382,
-  "notes": "Added:\n\n• Saved episode metadata retains season, episode number and source order so editing an episode title does not change its place in history. Older records use the season/episode information already present in their titles and URLs.\n\nChanged:\n\n• Tapping Next episode now marks the episode being left as watched before opening the next episode. Resume positions and actual watch time are preserved.\n• Saved episodes inside Watch History are grouped into seasons and sorted numerically, such as 1, 2, 3 and 10, instead of by last-viewed time. The same saved-season layout is used in Finished Episodes and Continue Watching."
+  "notes": "Changed:\n\n• Watch History now contains only episodes marked watched. Unwatched episodes appear in Continue Watching; Finished Episodes remains watched-only.\n• Marking an episode watched or unwatched moves it between the appropriate views while preserving its resume position, saved history, seasons and numeric episode order."
 }

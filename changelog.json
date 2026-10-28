@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionCode": 29,
+      "versionName": "0.6.19-beta",
+      "date": "2026-10-28",
+      "Changed": [
+        "Watch History now contains only episodes marked watched. Unwatched episodes appear in Continue Watching; Finished Episodes remains watched-only.",
+        "Marking an episode watched or unwatched moves it between the appropriate views while preserving its resume position, saved history, seasons and numeric episode order."
+      ]
+    },
+    {
       "versionCode": 28,
       "versionName": "0.6.18-beta",
       "date": "2026-10-28",

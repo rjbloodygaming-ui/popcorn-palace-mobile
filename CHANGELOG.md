@@ -2,6 +2,13 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.19-beta — 2026-10-28
+
+### Changed
+
+- Watch History now contains only episodes marked watched. Unwatched episodes appear in Continue Watching; Finished Episodes remains watched-only.
+- Marking an episode watched or unwatched moves it between the appropriate views while preserving its resume position, saved history, seasons and numeric episode order.
+
 ## 0.6.18-beta — 2026-10-28
 
 ### Added
