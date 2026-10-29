@@ -2,6 +2,17 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.24-beta — 2026-10-29
+
+### Fixed
+
+- Pause Media3 even when it is buffering, so a user pause, headphone disconnect or audio-focus interruption cannot leave playback queued to resume unexpectedly.
+
+### Changed
+
+- Includes the Media3 / ExoPlayer compatibility trial from 0.6.23, with the previous Android platform player available under Settings → Playback engine, plus privacy-filtered media request and format/error diagnostics.
+- Real-device testing on CMF Phone 2 Pro is still required; this release does not claim a confirmed fix for the reported startup playback failure.
+
 ## 0.6.23-beta — 2026-10-29
 
 ### Added
