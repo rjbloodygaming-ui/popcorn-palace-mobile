@@ -1,9 +1,9 @@
 {
-  "versionCode": 31,
-  "versionName": "0.6.21-beta",
+  "versionCode": 32,
+  "versionName": "0.6.22-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.21-beta.apk",
-  "sha256": "fb41778682c526c2c51bdeee7ebdb160dca05ebf1c02acc76db2b785a997dc6c",
-  "size": 337574,
-  "notes": "Fixed:\n\n• Titles with populated non-animation genre metadata, such as Doctor Who (1996), no longer require a country field to be classified as Movies or TV Shows.\n• Previously cached unverified results are re-evaluated using their saved genre metadata, so affected titles recover in global and category searches without clearing app data.\n\nChanged:\n\n• Animated titles without origin evidence remain unverified unless explicit anime metadata is available. Missing genre metadata is not treated as proof of a regular movie."
+  "apk": "Popcorn-Palace-Mobile-0.6.22-beta.apk",
+  "sha256": "2e494e549cd6efd2d75dd6a269c9c8d7e336f92c5a612a86aac2aa5aa0c0e9fa",
+  "size": 341670,
+  "notes": "Added:\n\n• Added Test source in the playback-error dialog. It samples up to 8 KB of the initial stream response and reports HTTP status, redirects and whether the response looks like an HLS playlist, HTML page, media data or an empty response.\n• Source-test results are included in local diagnostics without streaming URLs, credentials, headers or response contents. Cookies are not forwarded to a different origin during source-test redirects.\n• Diagnostic exports include device model, Android/OS build, app version and locale-region setting, with connection-type snapshots and playback preparation/error state. No IP addresses, device identifiers or precise location are collected.\n• With logging enabled, the small initial-response source check runs automatically when a playback error is shown. The manual Test source action remains available; response bodies and credentials are never written to logs.\n\nChanged:\n\n• The source test checks access to the initial response only. It does not establish segment access or codec compatibility, and is not presented as a confirmed fix for the reported playback failure."
 }

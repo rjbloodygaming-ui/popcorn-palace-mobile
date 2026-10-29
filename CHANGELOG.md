@@ -2,6 +2,19 @@
 
 Changes in Popcorn Palace Mobile, newest first. The same history is available offline in the app under **Settings → Changelog** or **Menu → Changelog**.
 
+## 0.6.22-beta — 2026-10-29
+
+### Added
+
+- Added Test source in the playback-error dialog. It samples up to 8 KB of the initial stream response and reports HTTP status, redirects and whether the response looks like an HLS playlist, HTML page, media data or an empty response.
+- Source-test results are included in local diagnostics without streaming URLs, credentials, headers or response contents. Cookies are not forwarded to a different origin during source-test redirects.
+- Diagnostic exports include device model, Android/OS build, app version and locale-region setting, with connection-type snapshots and playback preparation/error state. No IP addresses, device identifiers or precise location are collected.
+- With logging enabled, the small initial-response source check runs automatically when a playback error is shown. The manual Test source action remains available; response bodies and credentials are never written to logs.
+
+### Changed
+
+- The source test checks access to the initial response only. It does not establish segment access or codec compatibility, and is not presented as a confirmed fix for the reported playback failure.
+
 ## 0.6.21-beta — 2026-10-28
 
 ### Fixed

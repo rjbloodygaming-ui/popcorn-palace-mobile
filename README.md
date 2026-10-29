@@ -47,6 +47,8 @@ Favorites, history, settings and saved positions are stored on your device. Upda
 
 ### Diagnostics
 
+If playback fails before starting, the app automatically samples the initial source response when logging is enabled. You can also use **Test source** in the error dialog to check the initial stream response. The result is added to local diagnostics; it does not prove codec or segment compatibility.
+
 - View, clear, enable/disable or export app-wide logs through **Settings → App diagnostics / export logs**.
 - Logs cover navigation, network status/timings, playback controls and errors, update checks and app lifecycle events.
 - Logging is enabled by default unless you previously disabled it. Logs stay on your device, rotate to limit storage to about 512 KB, and are never uploaded automatically.
