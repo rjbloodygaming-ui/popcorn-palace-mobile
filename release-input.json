@@ -1,9 +1,9 @@
 {
-  "versionCode": 32,
-  "versionName": "0.6.22-beta",
+  "versionCode": 33,
+  "versionName": "0.6.23-beta",
   "packageName": "app.nepu.player",
-  "apk": "Popcorn-Palace-Mobile-0.6.22-beta.apk",
-  "sha256": "2e494e549cd6efd2d75dd6a269c9c8d7e336f92c5a612a86aac2aa5aa0c0e9fa",
-  "size": 341670,
-  "notes": "Added:\n\n• Added Test source in the playback-error dialog. It samples up to 8 KB of the initial stream response and reports HTTP status, redirects and whether the response looks like an HLS playlist, HTML page, media data or an empty response.\n• Source-test results are included in local diagnostics without streaming URLs, credentials, headers or response contents. Cookies are not forwarded to a different origin during source-test redirects.\n• Diagnostic exports include device model, Android/OS build, app version and locale-region setting, with connection-type snapshots and playback preparation/error state. No IP addresses, device identifiers or precise location are collected.\n• With logging enabled, the small initial-response source check runs automatically when a playback error is shown. The manual Test source action remains available; response bodies and credentials are never written to logs.\n\nChanged:\n\n• The source test checks access to the initial response only. It does not establish segment access or codec compatibility, and is not presented as a confirmed fix for the reported playback failure."
+  "apk": "Popcorn-Palace-Mobile-0.6.23-beta.apk",
+  "sha256": "d14a27cdadfa3ba7b509f31bd20e878d3183be80ab7d6fb7eb06111fc420562f",
+  "size": 3907953,
+  "notes": "Added:\n\n• Added Media3 / ExoPlayer as the default playback engine, with the previous Android platform player selectable under Settings → Playback engine. Stop and reopen an episode after changing engines.\n• Added numeric media-request status and player-engine/error diagnostics for playlist and segment loading. Response bodies, URLs, headers and credentials are excluded.\n\nChanged:\n\n• Media3 uses a stable service-owned video surface, existing notification controls, audio-focus handling, saved progress and watched-history rules. Decoder fallback is enabled when another compatible device decoder is available.\n• Media requests apply the required source headers to playlists and segments, with cookies restricted to the original stream origin and HTTPS-only redirects.\n• This is a compatibility trial for playback failures reported on CMF Phone 2 Pro / Nothing OS. A device-specific fix is not yet confirmed."
 }

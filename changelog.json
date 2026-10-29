@@ -1,6 +1,20 @@
 {
   "releases": [
     {
+      "versionCode": 33,
+      "versionName": "0.6.23-beta",
+      "date": "2026-10-29",
+      "Added": [
+        "Added Media3 / ExoPlayer as the default playback engine, with the previous Android platform player selectable under Settings → Playback engine. Stop and reopen an episode after changing engines.",
+        "Added numeric media-request status and player-engine/error diagnostics for playlist and segment loading. Response bodies, URLs, headers and credentials are excluded."
+      ],
+      "Changed": [
+        "Media3 uses a stable service-owned video surface, existing notification controls, audio-focus handling, saved progress and watched-history rules. Decoder fallback is enabled when another compatible device decoder is available.",
+        "Media requests apply the required source headers to playlists and segments, with cookies restricted to the original stream origin and HTTPS-only redirects.",
+        "This is a compatibility trial for playback failures reported on CMF Phone 2 Pro / Nothing OS. A device-specific fix is not yet confirmed."
+      ]
+    },
+    {
       "versionCode": 32,
       "versionName": "0.6.22-beta",
       "date": "2026-10-29",

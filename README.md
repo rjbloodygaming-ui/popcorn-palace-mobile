@@ -45,6 +45,12 @@ Returning from Player to the episode list, Discover or another screen inside the
 
 Favorites, history, settings and saved positions are stored on your device. Updates installed over the existing app preserve this data.
 
+### Playback engines
+
+- Media3 / ExoPlayer is the default player, with HLS and ordinary media support.
+- The previous player remains under **Settings → Playback engine → Android platform**. Stop and reopen the episode after switching.
+- Both engines use the same saved history, progress and notification controls. Device compatibility still needs real-device verification.
+
 ### Diagnostics
 
 If playback fails before starting, the app automatically samples the initial source response when logging is enabled. You can also use **Test source** in the error dialog to check the initial stream response. The result is added to local diagnostics; it does not prove codec or segment compatibility.
